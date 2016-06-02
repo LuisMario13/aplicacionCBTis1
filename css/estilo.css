@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contacto
+{
+	background-color: white;
+	border-radius: 20px;
+}
+
+.mision
+{
+	text-align: center;
+	color: #B0E0E6;
+}
+
+#vision
+{
+	text-align: center;
+}
+
+#vision img
+{
+	width: 100%;
+	height: 60%;
+}
+
+#plan
+{
+	color: #808080;
+}
+
+.espacios
+{
+	width: 100%;
+	height: 60%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.people {
+	list-style: none;
+	width: 100%;
+}
+
+
+.people li {
+	float: left;
+	margin-left: 10%;
+	margin-right: 20%;
+	margin-bottom: 30px;
+	width: 50%;
+}
+
+.people-photo {
+	width: 100%;
+	margin: 0;
+	background-color: #000;
+	overflow: hidden;
+}
+
+.people-photo img {
+	width: 100%;
+	opacity: 0.8;
+	transform: scale(1.5);
+	transition: all 0.5s linear;
+}
+
+.people-photo img:hover {
+	transform: scale(1.1);
+	opacity: 1;
+}

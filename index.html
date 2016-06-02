@@ -1,0 +1,321 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplicación CBTis</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temaapp11.min.css"/>
+<link rel="stylesheet" href="css/estilo.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body>
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="false" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>CBTis No. 16</h1>
+  </div> 
+  
+  <!-- Start WOWSlider.com -->
+<iframe src="visor/wowslider.html" style="width:680px;height:300px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+  
+<div data-role="main" class="ui-content"> 
+  <div data-role="collapsible" data-content-theme="false" align="center">
+    <h1>Contacto</h1>
+    <div id="contacto">
+      <p><strong>Director:</strong> Ramos Bravo Anselmo</p>
+      <p><strong>CCT:</strong> 21DCT0046P</p>
+      <p><strong>Tel.:</strong> (244) 4462940</p>
+      <p><strong>Dirección:</strong> Fracc. Ricardo Flores Magon Domicilio Conocido S/N. Atlixco, Puebla. CP 74240</p>
+      <p><strong>Correo Electrónico:</strong> cbtis016.dir@dgeti.sems.gob.mx</p>
+    </div>
+  </div>
+  
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>Misión y Visión</h1>
+    <div>
+      <h1 class="mision">Misión</h1>
+      <p>Formar personas con conocimientos tecnológicos en las áreas industrial, comercial y de servicios, a través de la preparación de profesionales técnicos y bachilleres, con el fin de contribuir al desarrollo sustentable del país.</p>
+      <br>
+      <h1 class="mision">Visión</h1>
+      <p>Ser una institución que proporcione una formación integral y pertinente de acuerdo a las exigencias derivadas de la competitividad mundial y el entorno y vocación local, además de tener la flexibilidad para satisfacer los intereses, aspiraciones y posibilidades de la población que demanda este nivel educativo en nuestro plantel.</p>
+      <br>
+      <div id="vision">
+      <img src="imagenes/cbtis3.jpg">
+      </div>
+    </div>
+  </div>
+  
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>Características</h1>
+    <div>
+      <ul>
+      <li>Posee un modelo flexible que permite el ingreso sin examen de admisión.</li>
+      <li>El estudiante realiza las asignatiras de acuerdo a su propio ritmo de avance y posibilidades de aprendizaje.</li>
+      <li>Se cuenta con material didáctico adecuado a las diferentes discapacidades.</li>
+      <li>El ingreso no exige limite de edad.</li>
+      <li>Los servicios son gratuitos a excepción de los exámenes, duplicado de credencial y duplicado de Certificado de Terminación de estudios.</li>
+      <li>El estudiuo de las asignaturas no se realiza obligatoriamente en el plantel.</li>
+      </ul>
+      <br>
+      <div align="center">
+      <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('v2','','imagenes/cbtis2.jpg',1)"><img src="imagenes/cbtis1.jpg" width="100%" height="60%" id="v2" /></a></p>
+      </div>
+    </div>
+  </div>
+  
+  <div data-role="collapsible" data-content-theme="false">
+    <h1>Especialidades que ofrece la escuela</h1>
+    <div data-role="content" align="center">
+      <div>
+        <h2>Logística</h2>
+        <div>
+        <img src="imagenes/cbtis15.jpg" width="60%" height="40%">
+        </div>
+      </div>
+      </div>
+      
+      <div data-role="content" align="center">
+      <div>
+        <h2>Mecánica Industrial</h2>
+        <div>
+        <img src="imagenes/cbtis16.jpg" width="60%" height="40%">
+        </div>
+      </div>
+      </div>
+      
+      <div data-role="content" align="center">
+      <div>
+        <h2>Electricidad</h2>
+        <div>
+        <img src="imagenes/cbtis17.jpg" width="60%" height="40%">
+        </div>
+      </div>
+      </div>
+      
+      <div data-role="content" align="center">
+      <div>
+        <h2>Programación</h2>
+        <div>
+        <a href="http://www.dgeti.sep.gob.mx/SitioWeb/DT/planesprogramas/historico/72/2011/programa%20de%20estudio/Programaci%C3%B3n.pdf" target="_blank"><img src="imagenes/cbtis18.jpg" width="60%" height="40%"></a>
+        </div>
+        <br>
+        <p id="plan"><strong>Plan de estudios de Programación. Toca la imagen ↑</strong></p>
+      </div>
+     </div>
+    </div>
+  </div>
+  
+    <div>
+      <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+        <li class="ui-first-child ui-last-child">
+        <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Espacios de la escuela</h2>
+        <p>Muestra los espacios de la escuela.</p>
+        </a>
+      </li>
+     
+        <li class="ui-first-child ui-last-child">
+        <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Al egresar de la institución...</h2>
+        <p>¿Que es lo que se obtiene al egresar?</p>
+        </a>
+      </li>
+      
+        <li class="ui-first-child ui-last-child">
+        <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Galeria</h2>
+        </a>
+      </li>
+      
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Desarrollado por:</h2>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <br>  
+  
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <h4>Aplicacion CBTis No. 16</h4>
+        <div>
+          <img src="res/android/mdpi.jpg" width="56" height="46">
+        </div>
+        <div>
+          <h4>Luis Mario García Rendón</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Espacios de la Escuela</h1>
+    </div>
+    <div data-role="content">
+      <ul>
+        <li>Aulas</li>
+        <li>Laboratorio de Química</li>
+        <li>Laboratorio de Computo</li>
+        <li>Laboratorio de Ingles</li>
+        <li>Biblioteca</li>
+        <li>Oficinas de administración</li>
+        <img class="espacios" src="imagenes/cbtis4.jpg">
+        <img class="espacios" src="imagenes/cbtis6.jpg">
+        <br>
+        <p><strong>Espacios deportivos:</strong></p>
+        <li>Campo de Fútbol</li>
+        <li>Cancha de Voleibol</li>
+        <li>Cancha de Basquetbol</li>
+        <img class="espacios" src="imagenes/cbtis8.jpg">
+        <img class="espacios" src="imagenes/cbtis10.jpg">
+      </ul>
+      </div>
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <h4>Aplicacion CBTis No. 16</h4>
+        <div>
+          <img src="res/android/mdpi.jpg" width="56" height="46">
+        </div>
+        <div>
+          <h4>Luis Mario García Rendón</h4>
+        </div>
+      </div>
+    </div>
+    
+    <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Al egresar el alumno obtiene:</h1>
+    </div>
+    <div data-role="content">
+      <ul>
+        <li>Certificado de Bachillerato valido para continuar sus estudios.</li>
+        <li>Titulo y Cedula profesional.</li>
+        <li>Constancias de competencias.</li>
+        <li>Certificación Microsoft Office.</li>
+        <br>
+        <p><strong>Ademas, el egresado sera capaz de:</strong></p>
+        <li>Incorporarse al campo laboral tano en el sector público como privado.</li>
+        <li>Desempeñarse de manera independiente prestando sus servicios profesionales.</li>
+        <li>Responder a un imperativo de desarrollo municipal, regional y nacional.
+        <br>
+        <img class="espacios" src="imagenes/cbtis19.jpg">
+        <img class="espacios" src="imagenes/cbtis5.jpg">
+      </ul>
+      </div>
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <h4>Aplicacion CBTis No. 16</h4>
+        <div>
+          <img src="res/android/mdpi.jpg" width="56" height="46">
+        </div>
+        <div>
+          <h4>Luis Mario García Rendón</h4>
+        </div>
+      </div>
+    </div>
+    
+    <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Galeria</h1>
+    </div>
+    <div data-role="content">
+     <ul class="people">
+       <li>
+         <figure class="people-photo">
+           <img src="imagenes/cbtis7.jpg" alt="">
+         </figure>
+       </li>
+       <li>
+         <figure class="people-photo">
+           <img src="imagenes/cbtis9.jpg" alt="">
+         </figure>
+       </li>
+       <li>
+         <figure class="people-photo">
+           <img src="imagenes/cbtis11.jpg" alt="">
+         </figure>
+       </li>
+     </ul>
+     <ul class="people">
+       <li>
+         <figure class="people-photo">
+          <img src="imagenes/cbtis12.jpg" alt="">
+         </figure>
+       </li>
+       <li>
+        <figure class="people-photo">
+          <img src="imagenes/cbtis13.jpg" alt="">
+        </figure>
+       </li>
+       <li>
+        <figure class="people-photo">
+         <img src="imagenes/cbtis14.jpg" alt="">
+        </figure>
+       </li>
+     </ul>
+      </div>
+      
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <h4>Aplicacion CBTis No. 16</h4>
+        <div>
+          <img src="res/android/mdpi.jpg" width="56" height="46">
+        </div>
+        <div>
+          <h4>Luis Mario García Rendón</h4>
+        </div>
+      </div>
+    </div>
+    
+     <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Desarrollado por:</h1>
+    </div>
+    <div data-role="content" align="center">
+      <h1>Luis Mario García Rendón</h1>
+      <h3>4° "E"</h3>
+      <h3>Programación</h3>
+      <h3>Desarrolla Aplicaciones Moviles (DAM)</h3>
+      </div>
+      
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <h4>Aplicacion CBTis No. 16</h4>
+        <div>
+          <img src="res/android/mdpi.jpg" width="56" height="46">
+        </div>
+        <div>
+          <h4>Luis Mario García Rendón</h4>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
